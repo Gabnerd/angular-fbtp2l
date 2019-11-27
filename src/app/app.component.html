@@ -1,0 +1,6 @@
+<input type="text" [(ngModel)]="teste">
+<button type="button" (click)="add()" class="btn btn-primary">Adicionar</button>
+<br>
+<ul>
+  <li *ngFor="let item of tasks">{{item}}</li>
+</ul>
